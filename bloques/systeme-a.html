@@ -155,7 +155,11 @@ html,body,#__next,[class*=PageContainer],section[id^=section]{background:#0B0C12
 .nlw .hero{padding:40px 0 18px}
 .nlw .top{position:relative}
 .nlw .vis{display:none}
-form,[class*=Form]{background:transparent!important;border:0!important;box-shadow:none!important}
+form{max-width:780px!important;margin:0 auto!important;background:linear-gradient(180deg,#151827,#10121B)!important;border:1px solid #262A3B!important;border-radius:20px!important;padding:26px!important;box-shadow:0 30px 80px -30px rgba(255,46,136,.4)!important}
+.nlw,.nlw p,.nlw li,.nlw a,.nlw summary,.nlw figcaption,.nlw div,.nlw b,.nlw small,form,form *{font-family:Geist,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif!important}
+.nlw h1,.nlw h2,.nlw .serif,.nlw em.r,.nlw .mod .n,.nlw blockquote,.nlw h1 *,.nlw h2 *{font-family:"Instrument Serif",Georgia,serif!important}
+.nlw .mono,.nlw code,.nlw .mono *{font-family:"Geist Mono",ui-monospace,monospace!important}
+@media (max-width:600px){form{padding:18px!important;border-radius:16px!important}}
 input[type=email],input[type=text],input[name]:not([type=checkbox]){height:52px!important;border-radius:12px!important;border:1px solid #2E3347!important;background:#0E1018!important;color:#F2F3FF!important;font:400 16px Geist,system-ui,sans-serif!important;padding:0 16px!important;box-shadow:none!important}
 input::placeholder{color:#8A8FB3!important;opacity:1}
 input:focus{outline:2px solid #FF2E88!important;outline-offset:1px}
